@@ -1,4 +1,4 @@
-package duongdk.model;
+package shop.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

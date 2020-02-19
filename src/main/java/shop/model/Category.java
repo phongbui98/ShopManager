@@ -1,22 +1,23 @@
-package duongdk.model;
+package shop.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.sql.Date;
 import java.util.Set;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Order {
+public class Category {
 
     private int id;
 
-    private Date date;
+    private String code;
 
-    private Account account;
+    private String name;
 
-    private Set<OrderDetail> orderDetails;
+    private int active;
+
+    private Set<Product> products;
 }

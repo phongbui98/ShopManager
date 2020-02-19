@@ -26,7 +26,7 @@
 	</bean>
 
 	<!-- Cấu hình package chứa các controller -->
-	<context:component-scan base-package="duongdk" />
+	<context:component-scan base-package="shop" />
 
 	<!-- Kết nối CSDL -->
 	<bean id="dataSource"
