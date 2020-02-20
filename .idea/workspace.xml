@@ -2,7 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9eddb856-3ebb-4408-ba84-5dbdf4ddd00d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ShopManager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shop/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shop/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/account.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/category.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/common/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/common/nav-top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/common/nav.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/indexAdmin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/newAccount.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/newCategory.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/newProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/order.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/orderDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/product.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/checkout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/common/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/common/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/common/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/product.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/product_detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/mapper/AccountMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/model/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/model/OrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/model/OrderDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/resources/mybatis-config.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +52,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Jsp File" />
         <option value="Interface" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -40,11 +78,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project/baby-shop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,15 +92,18 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\project\ShopManager\src\main\webapp\WEB-INF\pages" />
-      <recent name="D:\project\ShopManager\src\main\webapp\WEB-INF" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\project\ShopManager\src\main\webapp\WEB-INF\pages\user\common" />
       <recent name="D:\project\ShopManager\src\main\webapp\WEB-INF\pages\admin\common" />
       <recent name="D:\project\ShopManager\src\main\webapp" />
       <recent name="D:\project\ShopManager\src\main\webapp\WEB-INF\pages\admin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ShopManager\src\main\webapp\WEB-INF\views" />
+      <recent name="D:\ShopManager\src\main\resources" />
+      <recent name="D:\ShopManager\src\main\java" />
+      <recent name="D:\project\ShopManager\src\main\webapp\WEB-INF\pages" />
+      <recent name="D:\project\ShopManager\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunManager">
@@ -118,7 +160,8 @@
       <workItem from="1582012573031" duration="2486000" />
       <workItem from="1582016770647" duration="95000" />
       <workItem from="1582083382626" duration="1838000" />
-      <workItem from="1582095350873" duration="3172000" />
+      <workItem from="1582095350873" duration="4121000" />
+      <workItem from="1582166035031" duration="5987000" />
     </task>
     <servers />
   </component>
@@ -126,37 +169,41 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="23" key="#Inspections" timestamp="1582170622303">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="23" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1582170622303" />
     <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582098447622">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582098447622" />
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1582095476832">
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1582170299713">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582095476832" />
-    <state width="1323" height="75" key="GridCell.Tab.0.bottom" timestamp="1582001110430">
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582170299713" />
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1582171706509">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="75" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582001110430" />
-    <state width="1323" height="75" key="GridCell.Tab.0.center" timestamp="1582001110429">
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582171706509" />
+    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1582171706508">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="75" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582001110429" />
-    <state width="1323" height="75" key="GridCell.Tab.0.left" timestamp="1582001110429">
+    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582171706508" />
+    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1582171706507">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="75" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582001110429" />
-    <state width="1323" height="75" key="GridCell.Tab.0.right" timestamp="1582001110429">
+    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582171706507" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1582171706508">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="75" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582001110429" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1582095352394">
+    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582171706508" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1582166054172">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582095352393" />
-    <state x="526" y="54" key="spring file set editor" timestamp="1581995891354">
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582166054172" />
+    <state x="526" y="54" key="spring file set editor" timestamp="1582168861130">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="526" y="54" key="spring file set editor/0.0.1366.728@0.0.1366.728" timestamp="1581995891354" />
+    <state x="526" y="54" key="spring file set editor/0.0.1366.728@0.0.1366.728" timestamp="1582168861130" />
   </component>
 </project>
