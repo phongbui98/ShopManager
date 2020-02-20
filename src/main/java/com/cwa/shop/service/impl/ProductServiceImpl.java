@@ -1,4 +1,4 @@
-package shop.service.impl;
+package com.cwa.shop.service.impl;
 
 public class ProductServiceImpl {
 }

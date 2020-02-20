@@ -2,46 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9eddb856-3ebb-4408-ba84-5dbdf4ddd00d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ShopManager.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shop/dao/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shop/dao/impl/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/account.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/category.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/common/head.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/common/nav-top.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/common/nav.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/indexAdmin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/newAccount.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/newCategory.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/newProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/order.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/orderDetail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/product.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/cart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/checkout.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/common/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/common/head.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/common/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/product.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/product_detail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/mapper/AccountMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/model/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/model/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/model/OrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/model/OrderDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/resources/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/shop.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/shop.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cwa/shop/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cwa/shop/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/dao/AccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cwa/shop/dao/AccountDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/dao/impl/AccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cwa/shop/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cwa/shop/model/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cwa/shop/model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cwa/shop/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/model/OrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cwa/shop/model/OrderDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cwa/shop/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cwa/shop/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cwa/shop/service/impl/ProductServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/common/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/common/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,27 +59,28 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project/[Spring MVC - SQL Server] Employee Manager" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ShopManager\src\main\webapp" />
+      <recent name="D:\ShopManager\src\main\webapp\WEB-INF\views" />
+      <recent name="D:\ShopManager\src\main\resources" />
+      <recent name="D:\ShopManager\src\main\java" />
+      <recent name="D:\project\ShopManager\src\main\webapp\WEB-INF\pages" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\project\ShopManager\src\main\webapp\WEB-INF\pages\user\common" />
       <recent name="D:\project\ShopManager\src\main\webapp\WEB-INF\pages\admin\common" />
       <recent name="D:\project\ShopManager\src\main\webapp" />
       <recent name="D:\project\ShopManager\src\main\webapp\WEB-INF\pages\admin" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ShopManager\src\main\webapp\WEB-INF\views" />
-      <recent name="D:\ShopManager\src\main\resources" />
-      <recent name="D:\ShopManager\src\main\java" />
-      <recent name="D:\project\ShopManager\src\main\webapp\WEB-INF\pages" />
-      <recent name="D:\project\ShopManager\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunManager">
@@ -161,12 +138,16 @@
       <workItem from="1582016770647" duration="95000" />
       <workItem from="1582083382626" duration="1838000" />
       <workItem from="1582095350873" duration="4121000" />
-      <workItem from="1582166035031" duration="5987000" />
+      <workItem from="1582166035031" duration="6969000" />
+      <workItem from="1582180780421" duration="6771000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#Inspections" timestamp="1582170622303">
@@ -177,30 +158,39 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582098447622" />
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1582170299713">
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1582182520381">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582170299713" />
-    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1582171706509">
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582182520381" />
+    <state width="1323" height="13" key="GridCell.Tab.0.bottom" timestamp="1582188125606">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582171706509" />
-    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1582171706508">
+    <state width="1323" height="13" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1582188125606" />
+    <state width="1323" height="126" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582173053139" />
+    <state width="1323" height="13" key="GridCell.Tab.0.center" timestamp="1582188125605">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582171706508" />
-    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1582171706507">
+    <state width="1323" height="13" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1582188125605" />
+    <state width="1323" height="126" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582173053138" />
+    <state width="1323" height="13" key="GridCell.Tab.0.left" timestamp="1582188125604">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582171706507" />
-    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1582171706508">
+    <state width="1323" height="13" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1582188125604" />
+    <state width="1323" height="126" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582173053137" />
+    <state width="1323" height="13" key="GridCell.Tab.0.right" timestamp="1582188125606">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582171706508" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1582166054172">
+    <state width="1323" height="13" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1582188125606" />
+    <state width="1323" height="126" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582173053138" />
+    <state x="184" y="7" key="SettingsEditor" timestamp="1582187002819">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582166054172" />
+    <state x="184" y="7" key="SettingsEditor/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1582187002819" />
+    <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582184084843" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1582180779932">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582180779932" />
     <state x="526" y="54" key="spring file set editor" timestamp="1582168861130">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

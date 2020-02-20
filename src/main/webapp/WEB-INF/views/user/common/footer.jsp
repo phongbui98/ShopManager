@@ -14,7 +14,7 @@
                             lí các dòng cũi gỗ, nôi gỗ đã qua sử dụng Phân phối sỉ lẻ các đồ
                             dùng cho sơ sinh cam kết hàng chính hãng <br>Bán các mặt
                             hàng hỗ trợ cho mẹ trước và sau khi sinh <br>Hotline tư vấn
-                            : 0932 650 443 <br> Đ/c shop : 31 Đường Phạm Văn Đồng, Hà
+                            : 0932 650 443 <br> Đ/c com.cwa.shop : 31 Đường Phạm Văn Đồng, Hà
                             Nội
                         </p>
                         <div class="footer-social">

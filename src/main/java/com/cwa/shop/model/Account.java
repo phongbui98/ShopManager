@@ -1,4 +1,4 @@
-package shop.model;
+package com.cwa.shop.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

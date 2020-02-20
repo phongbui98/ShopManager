@@ -26,7 +26,7 @@
 	</bean>
 
 	<!-- Cấu hình package chứa các controller -->
-	<context:component-scan base-package="shop" />
+	<context:component-scan base-package="com.cwa.shop" />
 
 	<!-- Kết nối CSDL -->
 	<bean id="dataSource"
@@ -40,7 +40,7 @@
 		  class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
 		<property name="dataSource" ref="dataSource" />
 		<property name="hibernateProperties" value="classpath:hibernate.properties"/>
-		<property name="packagesToScan" value="shop.model" />
+		<property name="packagesToScan" value="com.cwa.shop.model" />
 	</bean>
 
 	<!-- Transaction Manager - Quản lý phiên giao dịch -->

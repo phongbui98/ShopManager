@@ -1,4 +1,4 @@
-package shop.dao;
+package com.cwa.shop.dao;
 
 public interface AccountDao {
 }

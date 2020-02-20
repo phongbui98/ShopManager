@@ -1,4 +1,4 @@
-package shop.dao.impl;
+package com.cwa.shop.dao.impl;
 
 public class AccountDaoImpl {
 }
