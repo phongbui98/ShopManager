@@ -6,10 +6,12 @@ import java.util.List;
 
 public interface AccountDao {
     List<Account> getAllAccounts();
-    void deleteAccount(int id);
-    void saveAccount(Account account);
-    Account getAccount(int id);
 
+    void deleteAccount(int id);
+
+    void saveAccount(Account account);
+
+    Account getAccount(int id);
 
 
 }
