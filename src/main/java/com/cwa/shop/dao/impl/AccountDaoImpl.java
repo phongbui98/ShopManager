@@ -16,14 +16,11 @@ import java.util.List;
 
 @Repository
 public class AccountDaoImpl implements AccountDao {
-    private final SessionFactory sessionFactory;
-
     @Autowired
-    public AccountDaoImpl(SessionFactory sessionFactory) {
-        this.sessionFactory = sessionFactory;
-    }
+    private SessionFactory sessionFactory;
 
     @Override
+    @Transactional
     public List<Account> getAllAccounts() {
         Session session = sessionFactory.getCurrentSession();
         CriteriaBuilder cb = session.getCriteriaBuilder();
@@ -34,7 +31,9 @@ public class AccountDaoImpl implements AccountDao {
         return query.getResultList();
     }
 
+
     @Override
+    @Transactional
     public void deleteAccount(int id) {
         Session session = sessionFactory.getCurrentSession();
         Account account = session.byId(Account.class).load(id);
@@ -43,6 +42,7 @@ public class AccountDaoImpl implements AccountDao {
     }
 
     @Override
+    @Transactional
     public void saveAccount(Account account) {
         Session currentSession = sessionFactory.getCurrentSession();
         currentSession.saveOrUpdate(account);
@@ -51,6 +51,7 @@ public class AccountDaoImpl implements AccountDao {
     }
 
     @Override
+    @Transactional
     public Account getAccount(int id) {
         Session session = sessionFactory.getCurrentSession();
         Account theAccount = session.get(Account.class, id);

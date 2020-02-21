@@ -25,10 +25,12 @@ public class AccountServiceImpl implements AccountService {
 
     }
 
+
     public void saveAccount(Account account) {
         accountDao.saveAccount(account);
 
     }
+
 
     public Account getAccount(int id) {
         return accountDao.getAccount(id);
