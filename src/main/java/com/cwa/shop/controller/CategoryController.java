@@ -31,7 +31,7 @@ public class CategoryController {
     }
 
     @PostMapping("/updateCategory")
-    public String showUpdateForm(@RequestParam("accountId") int theId, Model theModel) {
+    public String showUpdateForm(@RequestParam("categoryId") int theId, Model theModel) {
         Category theCategory = categoryService.findById(theId);
         theModel.addAttribute("category", theCategory);
         return "admin/newCategory";
@@ -44,7 +44,7 @@ public class CategoryController {
     }
 
     @GetMapping("/listCategory{theId}")
-    public String showCategoryById(@PathVariable @RequestParam("accountId") int theId, Model theModel) {
+    public String showCategoryById(@PathVariable @RequestParam("categoryId") int theId, Model theModel) {
         Category theCategory = categoryService.findById(theId);
         theModel.addAttribute("category", theCategory);
         return "admin/category";
